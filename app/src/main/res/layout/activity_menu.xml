@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hh"
+    tools:context=".menu">
+
+    <Button
+        android:id="@+id/inten"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#3B643C"
+        android:text="@string/intent"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content1"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="186dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#38613A"
+        android:text="@string/activity"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#3B643C"
+        android:text="@string/service"
+        android:textColor="#FDFFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/broadcast"
+        app:layout_constraintEnd_toEndOf="@+id/activity"
+        app:layout_constraintStart_toStartOf="@+id/activity" />
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#3B643C"
+        android:text="@string/broadcast"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/service"
+        app:layout_constraintStart_toStartOf="@+id/service"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <Button
+        android:id="@+id/content1"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3B643C"
+        android:text="@string/conten"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/broadcast"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/broadcast"
+        app:layout_constraintTop_toBottomOf="@+id/broadcast" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="98dp"
+        android:layout_height="61dp"
+        android:text="home"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/activity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="83dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#B42C2C"
+        android:text="@string/logout"
+        app:layout_constraintBottom_toTopOf="@+id/activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toEndOf="@+id/home" />
+</androidx.constraintlayout.widget.ConstraintLayout>

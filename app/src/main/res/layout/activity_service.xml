@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tt">
+
+    <TextView
+        android:id="@+id/isiservice"
+        android:layout_width="339dp"
+        android:layout_height="205dp"
+        android:text="@string/isi_service"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/syntaxs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backs"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/links"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/links" />
+
+    <Button
+        android:id="@+id/links"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/link"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/syntaxs"
+        app:layout_constraintStart_toStartOf="@+id/syntaxs"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <Button
+        android:id="@+id/syntaxs"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/syntax"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/links"
+        app:layout_constraintEnd_toEndOf="@+id/isiservice"
+        app:layout_constraintStart_toStartOf="@+id/isiservice" />
+</androidx.constraintlayout.widget.ConstraintLayout>

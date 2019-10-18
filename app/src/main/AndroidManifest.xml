@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uts_yayakurniawan_d1041161049">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".syntaxinten"></activity>
+        <activity android:name=".syntaxconten" />
+        <activity android:name=".syntaxbroadcast" />
+        <activity android:name=".syntaxservice" />
+        <activity android:name=".syntaxactivity" />
+        <activity android:name=".intent" />
+        <activity android:name=".content" />
+        <activity android:name=".broadcasr" />
+        <activity android:name=".service" />
+        <activity android:name=".materi" />
+        <activity android:name=".menu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tt"
+    tools:context=".intent">
+
+    <TextView
+        android:id="@+id/isiinten"
+        android:layout_width="341dp"
+        android:layout_height="349dp"
+        android:text="@string/isi_intent"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/syntaxi"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <Button
+        android:id="@+id/backi"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/back_i"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linki"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/linki"
+        app:layout_constraintTop_toBottomOf="@+id/linki" />
+
+    <Button
+        android:id="@+id/linki"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/link_i"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/syntaxi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/syntaxi"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <Button
+        android:id="@+id/syntaxi"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/syntax_i"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/isiinten"
+        app:layout_constraintStart_toStartOf="@+id/isiinten"
+        tools:layout_editor_absoluteY="417dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

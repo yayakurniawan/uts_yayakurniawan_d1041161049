@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tt"
+    tools:context=".broadcasr">
+
+    <TextView
+        android:id="@+id/isibroadcast"
+        android:layout_width="341dp"
+        android:layout_height="349dp"
+        android:text="@string/isi_broadcast"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/syntaxb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:layout_editor_absoluteX="35dp" />
+
+    <Button
+        android:id="@+id/backb"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/back_b"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linkb"
+        app:layout_constraintStart_toStartOf="@+id/linkb"
+        app:layout_constraintTop_toBottomOf="@+id/linkb" />
+
+    <Button
+        android:id="@+id/linkb"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/link_b"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/syntaxb"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/syntaxb"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/syntaxb"
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#3D6432"
+        android:text="@string/syntax_b"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/linkb"
+        app:layout_constraintEnd_toEndOf="@+id/isibroadcast"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/isibroadcast" />
+</androidx.constraintlayout.widget.ConstraintLayout>

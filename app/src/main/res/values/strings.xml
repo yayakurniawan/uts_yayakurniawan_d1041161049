@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">uts_yayakurniawan_d1041161049</string>
+    <string name="background">background</string>
+    <string name="masuk">masuk</string>
+
+    //menu
+    <string name="activity">activity</string>
+    <string name="service">service</string>
+    <string name="broadcast"> broadcast Receivers</string>
+    <string name="conten"> content providers</string>
+    <string name="intent"> intent</string>
+    <string name="logout">logout</string>
+    <string name="background">hh</string>
+
+
+    //activity
+    <string name="isi_activity"> Sebuah Activity akan menampilkan antarmuka aplikasi di layar,
+    sebagai contoh ketika kita membuka sebuah aplikasi maka akan muncul tampilan dari aplikasi tersebut.</string>
+    <string name="syntax_a">syntax</string>
+    <string name="link_a">link</string>
+    <string name="back_a">back</string>
+
+
+    //service
+    <string name="isi_service">Service adalah komponen yang berjalan di latar belakang. Sebagai contoh, Service bisa memainkan musik di latar belakang saat pengguna berada dalam aplikasi yang berbeda, 
+        atau mungkin mengambil data melalui jaringan tanpa menghalangi interaksi pengguna dengan aktivitas.</string>
+    <string name="syntax">syntax</string>
+    <string name="link">link</string>
+    <string name="back">back</string>
+
+
+    //broadcast
+    <string name="isi_broadcast">Broadcast Receiver berfungsi menerima pesan intent dari aplikasi lain atau 
+        dari sistem. Sebagai contoh, suatu aplikasi mengirim pesan berisi perintah tertentu untuk aplikasi lain bahwa beberapa data telah diunduh ke perangkat dan tersedia bagi mereka untuk menggunakan apklikasi tersebut, jadi Broadcast Receiver inilah yang akan menangani komunikasi ini dan akan melakukan tindakan yang tepat.Sebuah Broadcast Receiver diimplementasikan sebagai subclass dari 
+        class BroadcastReceiver dan setiap pesan akan dikirim dan diterima sebagai objek Intent.</string>
+    "
+    <string name="syntax_b">syntax</string>
+    <string name="link_b">link</string>
+    <string name="back_b">back</string>
+
+    //content
+
+    <string name="isi_conten">ContentProvider adalah penyedia konten dari satu aplikasi ke aplikasi lain atas 
+        perintah tertentu. Perintah tersebut ditangani oleh sebuah method dari class ContentResolver. 
+        Data dapat disimpan dalam sistem file, database atau di tempat lainnya.ContentProvider diimplementasikan sebagai subclass dari class ContentProvider dan harus menerapkan satu set standar API 
+        yang memungkinkan aplikasi lain untuk melakukan transaksi.</string>
+    <string name="syntax_c">syntax</string>
+    <string name="link_c">link</string>
+    <string name="back_c">back</string>
+
+
+    //intent
+
+    <string name="isi_intent">Mengirim atau menerima sebuah perintah dari aplikasi lain.</string>
+    <string name="syntax_i">syntax</string>
+    <string name="link_i">link</string>
+    <string name="back_i">back</string>
+
+    //syntaxa
+    <string name="sba"> back</string>
+    <string name="isi_sba">public class MainActivity extends Activity {
+                .....}
+    </string>
+
+    //syntaxs
+    <string name="sbs"> back</string>
+    <string name="isi_sbs">public class MyService extends Service {}
+        }
+    </string>
+
+    //syntaxb
+    <string name="sbb"> back</string>
+    <string name="isi_sbb">public class MyReceiver  extends  BroadcastReceiver {
+            public void onReceive(context,intent){}
+
+}
+}</string>
+
+
+    //syntaxc
+    <string name="sbc"> back</string>
+    <string name="isi_sbc"> public class MyContentProvider extends  ContentProvider {
+        public void onCreate(){}
+        }
+
+        }
+        }
+    </string>
+
+
+    //syntaxi
+    <string name="sbi"> back</string>
+    <string name="isi_sbi"> KOSONG</string>
+
+</resources>
